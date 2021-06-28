@@ -45,7 +45,8 @@ font-family: 'Montserrat Extrabold', sans-serif; }
   align-items: center; 
   &__titulo {
     color: #36b7a9;
-    font-size: 40px;
+    font-size: 40px; 
+     text-align:center;
     font-family: 'Bebas Neue', cursive; 
     &__titulo .inicioQuiensoy__titulo__parrafo {
       size: 14px;
@@ -92,13 +93,14 @@ font-family: 'Montserrat Extrabold', sans-serif; }
   padding-bottom: 2px;
   &__subfinalFooter {
     font-size: 16px;
-    padding-top: 4%; 
+    padding-top: 10%;
+    padding-bottom: 20%; 
        }
        }
 
 .modificandoelFooter__subfinalFooter--tamaño{
 font-size: 11px;
-padding-top:10px;
+padding-top:5px;
 	
 }
 
@@ -172,7 +174,7 @@ padding-top:10px;
 	background-color: black;
 	color: white;
 	margin-top:30px;
-	text-align: center;
+	text-align: center;    
 
 }
 
@@ -195,3 +197,31 @@ padding-top:10px;
     margin: 10px auto;
     background: #fff;
 }
+.btn-group-sm {
+  padding: .25rem .5rem;
+  border-radius: 0;
+}
+.btn-primary{
+      color: black;
+    background-color: white;
+    border-color:white;
+}
+
+.btn-primary2{
+      color: black;
+    background-color: black;
+    border-color:white;
+}
+
+.contactMeBackground{
+   background-image: url('../assets/img/contactMe.png');
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width:100%;
+  height: 100%;
+  
+}
+
+
+

@@ -8,6 +8,10 @@
   padding-top: 50px;
   padding-bottom: 0px; }
 
+.paddingOntop1 {
+  padding-top: 0px;
+  padding-bottom: 50px; }
+
 .align-items-center {
   justify-content: center;
   align-items: center; }
@@ -46,6 +50,12 @@
 .botonTrabajos {
   justify-content: center;
   align-items: center !important; }
+
+.trabajosPortfolio {
+  align-items: center;
+  padding-bottom: 30px;
+  justify-content: center;
+  text-align: center; }
 
 .bg-light {
   background-color: #36b7a9 !important; }
@@ -86,6 +96,7 @@ nav {
   .inicioQuiensoy__titulo {
     color: #36b7a9;
     font-size: 40px;
+    text-align: center;
     font-family: 'Bebas Neue', cursive; }
     .inicioQuiensoy__titulo__titulo .inicioQuiensoy__titulo__parrafo {
       size: 14px;
@@ -125,11 +136,12 @@ nav {
   padding-bottom: 2px; }
   .modificandoelFooter__subfinalFooter {
     font-size: 16px;
-    padding-top: 4%; }
+    padding-top: 10%;
+    padding-bottom: 20%; }
 
 .modificandoelFooter__subfinalFooter--tamaño {
   font-size: 11px;
-  padding-top: 10px; }
+  padding-top: 5px; }
 
 .main {
   background-color: #fff; }
@@ -203,6 +215,28 @@ nav {
   margin: 10px auto;
   background: #fff; }
 
+.btn-group-sm {
+  padding: .25rem .5rem;
+  border-radius: 0; }
+
+.btn-primary {
+  color: black;
+  background-color: white;
+  border-color: white; }
+
+.btn-primary2 {
+  color: black;
+  background-color: black;
+  border-color: white; }
+
+.contactMeBackground {
+  background-image: url("../assets/img/contactMe.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100%; }
+
 @media (max-width: 768px) {
   .caption--color {
     font-size: 40px; }
@@ -212,11 +246,27 @@ nav {
     width: 100px;
     padding-bottom: 10px; }
   .logoWidth {
-    size: 20%; } }
+    size: 20%;
+    width: 50%; }
+  .bg-light--paddingImage {
+    margin-right: 50px; }
+  .paddingOntop1 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    width: 30%; } }
 
 @media (min-width: 320px) {
   .imgRedes {
     width: 40px;
     padding-bottom: 10px; }
   .logoWidth {
-    width: 80%; } }
+    width: 80%; }
+  .modificandoelFooter__subfinalFooter {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
+  .paddingOntop1 {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    width: 30%; } }
