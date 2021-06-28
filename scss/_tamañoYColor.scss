@@ -96,7 +96,9 @@ font-family: 'Montserrat Extrabold', sans-serif; }
        }
        }
 
-.modificandoelFooter__subfinalFooter--tamaño{font-size: 11px;
+.modificandoelFooter__subfinalFooter--tamaño{
+font-size: 11px;
+padding-top:10px;
 	
 }
 
@@ -187,3 +189,9 @@ font-family: 'Montserrat Extrabold', sans-serif; }
 }
 
 
+.footerSeparator{
+  width: 150px;
+    height: 1px;
+    margin: 10px auto;
+    background: #fff;
+}
