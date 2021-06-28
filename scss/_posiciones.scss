@@ -1,0 +1,55 @@
+
+.paddingOntop{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.paddingOntopException{
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.align-items-center {
+  justify-content: center;
+  align-items: center; }
+
+  .container-fluid {
+  align-items: center;
+  justify-content: center;
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.tituloPortada--tamañotituloPortada {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+
+.lightbox {
+  padding-bottom: 100px; }
+
+
+.thumbnail { 
+ position: relative; } 
+
+
+.card{
+  margin-right: 30px;
+}
+
+.trabajosPortfolio {
+  padding-bottom: 30px; }
+
+ .form-inline {
+    justify-content: center;
+  }
+.redesSociales{
+  padding: 0px;
+  margin: 0px;
+}
+
+.botonTrabajos{
+	  justify-content: center;
+  align-items: center !important;
+}
